@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicAppName": {
+      "value": "nimccfta-sftpdistributor1"
+    },
+    "sftpwithssh_1_password": {
+      "value": "{your SFTP password}"
+    },
+    "base64_folder_to_monitor": {
+      "value": "L3VwbG9hZC9kaXN0cmlidXRvcjE="
+    },
+    "folder_to_monitor": {
+      "value": "/upload/distributor1"
+    },
+    "sftpwithssh_1_sshPrivateKey": {
+      "value": ""
+    },
+    "sftpwithssh_1_sshPrivateKeyPassphrase": {
+      "value": ""
+    }
+  }
+}
